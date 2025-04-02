@@ -1,0 +1,11 @@
+[workspace]
+resolver = "2"
+
+members = [ "board", "board_console", "board_graphic", "game_engine", "macro_asset_loader", "math", "quantum", "text_extension", "ui", "util"]
+
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3

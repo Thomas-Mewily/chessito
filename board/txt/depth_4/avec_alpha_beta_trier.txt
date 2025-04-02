@@ -1,0 +1,76 @@
+size of the board without the piece : 424 octets
+size of the board with the piece : 1448 octets
+size of a single piece : 16 octets
+Ai vs Ai, 16 turns
+
+Ai :     19833 actions evaluated in   0.192s with depth 4 at Turn  1 before choosing to move d2 to d4. (   103414 actions/s)
+Ai :     25510 actions evaluated in   0.206s with depth 4 at Turn  2 before choosing to move e7 to e6. (   123967 actions/s)
+Ai :     20044 actions evaluated in   0.148s with depth 4 at Turn  3 before choosing to move e2 to e4. (   135228 actions/s)
+Ai :     24897 actions evaluated in   0.199s with depth 4 at Turn  4 before choosing to move f8 to b4. (   124828 actions/s)
+Ai :      6366 actions evaluated in   0.048s with depth 4 at Turn  5 before choosing to move c1 to d2. (   131278 actions/s)
+Ai :      3645 actions evaluated in   0.033s with depth 4 at Turn  6 before choosing to move a7 to a5. (   110584 actions/s)
+Ai :     14166 actions evaluated in   0.128s with depth 4 at Turn  7 before choosing to move c2 to c3. (   111078 actions/s)
+Ai :      7604 actions evaluated in   0.059s with depth 4 at Turn  8 before choosing to move b4 to d6. (   128910 actions/s)
+Ai :     16499 actions evaluated in   0.142s with depth 4 at Turn  9 before choosing to move e4 to e5. (   115855 actions/s)
+Ai :      8833 actions evaluated in   0.078s with depth 4 at Turn 10 before choosing to move d6 to f8. (   112585 actions/s)
+Ai :     22234 actions evaluated in   0.180s with depth 4 at Turn 11 before choosing to move d1 to h5. (   123813 actions/s)
+Ai :     16479 actions evaluated in   0.348s with depth 4 at Turn 12 before choosing to move g7 to g6. (    47329 actions/s)
+Ai :      8233 actions evaluated in   0.194s with depth 4 at Turn 13 before choosing to move h5 to g5. (    42346 actions/s)
+Ai :      3013 actions evaluated in   0.042s with depth 4 at Turn 14 before choosing to move d8 to g5. (    71862 actions/s)
+Ai :      1913 actions evaluated in   0.016s with depth 4 at Turn 15 before choosing to move d2 to g5. (   119870 actions/s)
+Ai :     11672 actions evaluated in   0.099s with depth 4 at Turn 16 before choosing to move h7 to h6. (   117796 actions/s)
+
+TeamsData { val: [TeamData { alive_piece_value: 1032, alive: true, piece_pos: [a2, a1, b2, b1, c3, g5, d4, h1, e5, e1, f2, f1, g2, g1, h2] }, TeamData { alive_piece_value: 1032, alive: true, piece_pos: [a8, a5, b8, b7, c8, c7, h6, d7, e8, e6, f8, f7, g8, g6, h8] }, TeamData { alive_piece_value: 0, alive: false, piece_pos: [] }, TeamData { alive_piece_value: 0, alive: false, piece_pos: [] }] }
+
+Turn 17, playing Blue, energy 1
+Turn #16, Blue play (team stat : Blue : {score piece sum: 1032} Red : {score piece sum: 1032} )
+===================
+| R N B . K B N R | 8 7
+| . o o o . o .   | 7 6
+|   .   . o . o o | 6 5
+| o   .   o   B   | 5 4
+|   .   o   .   . | 4 3
+| .   o   .   .   | 3 2
+| o o   .   o o o | 2 1
+| R N .   K B N R | 1 0
+===================
+  a b c d e f g h
+  0 1 2 3 4 5 6 7
+
+34 actions :
+  - move g5 to h6 [Capture(Some((6, 4)), (7, 5)), Swap((6, 4), (7, 5)), EnergyAdd(-1)] (score: 9)
+  - move a2 to a3 [Swap((0, 1), (0, 2)), EnergyAdd(-1)] (score: -1)
+  - move a2 to a4 [Swap((0, 1), (0, 3)), EnergyAdd(-1)] (score: -1)
+  - move b2 to b3 [Swap((1, 1), (1, 2)), EnergyAdd(-1)] (score: -1)
+  - move b2 to b4 [Swap((1, 1), (1, 3)), EnergyAdd(-1)] (score: -1)
+  - move b1 to a3 [Swap((1, 0), (0, 2)), EnergyAdd(-1)] (score: -1)
+  - move b1 to d2 [Swap((1, 0), (3, 1)), EnergyAdd(-1)] (score: -1)
+  - move c3 to c4 [Swap((2, 2), (2, 3)), EnergyAdd(-1)] (score: -1)
+  - move g5 to h4 [Swap((6, 4), (7, 3)), EnergyAdd(-1)] (score: -1)
+  - move g5 to f4 [Swap((6, 4), (5, 3)), EnergyAdd(-1)] (score: -1)
+  - move g5 to e3 [Swap((6, 4), (4, 2)), EnergyAdd(-1)] (score: -1)
+  - move g5 to d2 [Swap((6, 4), (3, 1)), EnergyAdd(-1)] (score: -1)
+  - move g5 to c1 [Swap((6, 4), (2, 0)), EnergyAdd(-1)] (score: -1)
+  - move g5 to f6 [Swap((6, 4), (5, 5)), EnergyAdd(-1)] (score: -1)
+  - move g5 to e7 [Swap((6, 4), (4, 6)), EnergyAdd(-1)] (score: -1)
+  - move g5 to d8 [Swap((6, 4), (3, 7)), EnergyAdd(-1)] (score: -1)
+  - move d4 to d5 [Swap((3, 3), (3, 4)), EnergyAdd(-1)] (score: -1)
+  - move e1 to e2 [Swap((4, 0), (4, 1)), EnergyAdd(-1)] (score: -1)
+  - move e1 to d1 [Swap((4, 0), (3, 0)), EnergyAdd(-1)] (score: -1)
+  - move e1 to d2 [Swap((4, 0), (3, 1)), EnergyAdd(-1)] (score: -1)
+  - move f2 to f3 [Swap((5, 1), (5, 2)), EnergyAdd(-1)] (score: -1)
+  - move f2 to f4 [Swap((5, 1), (5, 3)), EnergyAdd(-1)] (score: -1)
+  - move f1 to e2 [Swap((5, 0), (4, 1)), EnergyAdd(-1)] (score: -1)
+  - move f1 to d3 [Swap((5, 0), (3, 2)), EnergyAdd(-1)] (score: -1)
+  - move f1 to c4 [Swap((5, 0), (2, 3)), EnergyAdd(-1)] (score: -1)
+  - move f1 to b5 [Swap((5, 0), (1, 4)), EnergyAdd(-1)] (score: -1)
+  - move f1 to a6 [Swap((5, 0), (0, 5)), EnergyAdd(-1)] (score: -1)
+  - move g2 to g3 [Swap((6, 1), (6, 2)), EnergyAdd(-1)] (score: -1)
+  - move g2 to g4 [Swap((6, 1), (6, 3)), EnergyAdd(-1)] (score: -1)
+  - move g1 to h3 [Swap((6, 0), (7, 2)), EnergyAdd(-1)] (score: -1)
+  - move g1 to e2 [Swap((6, 0), (4, 1)), EnergyAdd(-1)] (score: -1)
+  - move g1 to f3 [Swap((6, 0), (5, 2)), EnergyAdd(-1)] (score: -1)
+  - move h2 to h3 [Swap((7, 1), (7, 2)), EnergyAdd(-1)] (score: -1)
+  - move h2 to h4 [Swap((7, 1), (7, 3)), EnergyAdd(-1)] (score: -1)
+
+Total wait time : 2.1228s for 16 turns (0.1327 s/turn)

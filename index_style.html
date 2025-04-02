@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Board Game 👑♞♙</title>
+    <link rel="icon" type="image/x-icon" href="/web/favicon.ico">
+    <style>
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #222;
+    color: #fff;
+    margin: 20px;
+    overflow: hidden; /* Disable scrolling */
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 40px); /* Subtracting the left and right body margins */
+    height: 70vh; /* 80% of the viewport height */
+    position: relative; /* Required for absolute positioning of the fullscreen button */
+    /*
+    border: 4px solid rgb(0, 0, 0); 
+    
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+    
+    box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem rgb(57, 57, 57);
+    
+    */    
+     /*margin: 10px;  Margin in all directions */
+}
+
+.chess-container {
+    width: 100%; /* Take up 100% of the width of the wrapper */
+    height: 100%; /* Take up 100% of the height of the wrapper */
+    background-color: #000000;
+    /* border-radius: 20%; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+        .container {
+            text-align: center;
+            padding: 20px;
+            height: 15vh; /* 30% of the viewport height */
+            overflow: hidden; /* Hide content overflow */
+        }
+
+        .title {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .mewily {
+            color: #00b8d4;
+            font-weight: bold;
+        }
+
+        .link {
+            color: #4caf50;
+            text-decoration: none;
+        }
+
+        .link:hover {
+            text-decoration: underline;
+        }
+
+
+
+
+        #glcanvas {
+            width: 100%;
+            height: 100%;
+        }
+
+        .fullscreen-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 20px 40px; /* Increased padding for bigger button */
+            border-radius: 8px; /* Rounded corners */
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            opacity: 1; /* Initially visible */
+            pointer-events: auto; /* Initially clickable */
+            font-size: 18px; /* Increased font size */
+        }
+
+        .fullscreen-button:hover {
+            background-color: #388e3c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">This game was programmed and designed by <span class="mewily">Mewily</span></h1>
+        <p>
+            <a href="https://mewily.itch.io/" class="link">itch.io</a>, 
+            <a href="https://www.youtube.com/channel/UCMzM4J9w0OEAb077mfrfXog" class="link">Youtube</a>
+        </p>
+    </div>
+
+    <div class="wrapper">
+        <div class="chess-container">
+            <button class="fullscreen-button" onclick="toggleFullscreen()">Fullscreen</button>
+            <canvas id="glcanvas" tabindex='1'></canvas>
+            <script src="web/miniquad.js"></script>
+            <script src="web/quad-timestamp.js"></script>
+            <script>load("target/wasm32-unknown-unknown/release/board_graphic.wasm");</script>
+        </div>
+    </div>
+
+    <script>
+        const fullscreenButton = document.querySelector('.fullscreen-button');
+        let isMouseOnTop = false;
+
+        function toggleFullscreen() {
+            const elem = document.querySelector('.chess-container');
+            if (!document.fullscreenElement) {
+                elem.requestFullscreen().catch(err => {
+                    console.error(`Error attempting to enable full-screen mode: ${err.message} (${err.name})`);
+                });
+            } else {
+                document.exitFullscreen();
+            }
+        }
+
+        function hideFullscreenButton() {
+            if (!isMouseOnTop && document.fullscreenElement) {
+                fullscreenButton.style.opacity = '0';
+                fullscreenButton.style.pointerEvents = 'none';
+            }
+        }
+
+        function showFullscreenButton() {
+            if (isMouseOnTop && document.fullscreenElement) {
+                fullscreenButton.style.opacity = '1';
+                fullscreenButton.style.pointerEvents = 'auto';
+            }
+        }
+
+        document.addEventListener('mousemove', (event) => {
+            const mouseY = event.clientY;
+            const screenHeight = window.innerHeight;
+            const threshold = 0.1 * screenHeight; // 10% of the screen height
+            isMouseOnTop = mouseY < threshold;
+            if (document.fullscreenElement) {
+                if (isMouseOnTop) {
+                    showFullscreenButton();
+                } else {
+                    hideFullscreenButton();
+                }
+            }
+        });
+    </script>
+</body>
+</html>

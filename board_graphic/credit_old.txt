@@ -1,0 +1,45 @@
+A Game by Thomas / Mewily
+
+Thank to 
+
+- Matéo Allègre for helping me with some pawn movements
+- Mathis Roubille for beta testing
+- Boris Ouya for discussing about AI behavior
+- Thomas Dupois for overreacting to my games ^^
+- Martin Jouen for some unexpected coding discussion at any time
+
+- Friends an Family
+- Other interns, especially Alexandre, Pacifique Aganze and Kongthong
+
+for helping me with the game, discussition (about AI behavior, langage design, and random coding...), overreacting to my games ^^
+
+Programming :
+
+Game Designer, User Interface Designer : Thomas / Mewily
+Main and only programmer : Thomas / Mewily
+
+This game was programmed in Rust <3
+https://www.rust-lang.org/fr
+
+...using the Macroquad crate :
+https://macroquad.rs/
+
+Game Assets :
+
+Textures :
+
+Modern chess sprite asset by Cburnett on Wikipédia at 
+https://commons.wikimedia.org/wiki/Template:SVG_chess_pieces
+
+Wood Texture by William Warby
+https://www.flickr.com/photos/wwarby/5106733699/in/photostream/
+
+Pixel Art Chess Sprite by Deja View at
+https://deja-view.itch.io/chess-assets
+
+Pixel Art Ui Icon by Thomas / Mewily :
+https://mewily.itch.io/hud-icon-32px
+
+Sound :
+
+Most sound are from https://freesound.org/

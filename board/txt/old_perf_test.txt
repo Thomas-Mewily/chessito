@@ -1,0 +1,68 @@
+Juste des test, rien de trop pro
+
+Sans alpha beta Pruning :
+
+Release : somme piece + nb action :
+Tableau taille fixe template :
+
+32 capacity vec for actions
+Ai : 202434 actions evaluated in 0.6542s with depth 4 at Turn 1 before choosing move c2 to c3. (309437 actions/s)
+Ai : 368274 actions evaluated in 1.3940s with depth 4 at Turn 2 before choosing move c7 to c5. (264182 actions/s)
+Ai : 675430 actions evaluated in 2.5252s with depth 4 at Turn 3 before choosing move d1 to a4. (267480 actions/s)
+Ai : 1314315 actions evaluated in 5.4496s with depth 4 at Turn 4 before choosing move d8 to b6. (241175 actions/s)
+Ai : 2144826 actions evaluated in 9.5619s with depth 4 at Turn 5 before choosing move f2 to f4. (224310 actions/s)
+Ai : 2074373 actions evaluated in 9.0802s with depth 4 at Turn 6 before choosing move h7 to h5. (228450 actions/s)
+Ai : 2458648 actions evaluated in 11.0278s with depth 4 at Turn 7 before choosing move b1 to f5. (222950 actions/s)
+Ai : 2732415 actions evaluated in 12.2601s with depth 4 at Turn 8 before choosing move a7 to a5. (222870 actions/s)
+Ai : 2861121 actions evaluated in 21.3713s with depth 4 at Turn 9 before choosing move h2 to h4. (133876 actions/s)
+Ai : 2890767 actions evaluated in 22.4744s with depth 4 at Turn 10 before choosing move g8 to h7. (128624 actions/s)
+Ai : 3031717 actions evaluated in 15.4254s with depth 4 at Turn 11 before choosing move a4 to e4. (196540 actions/s)
+Ai : 2923558 actions evaluated in 13.7395s with depth 4 at Turn 12 before choosing move h7 to f5. (212784 actions/s)
+Ai : 3148868 actions evaluated in 14.1172s with depth 4 at Turn 13 before choosing move e4 to f5. (223051 actions/s)
+Ai : 2547942 actions evaluated in 11.1533s with depth 4 at Turn 14 before choosing move b6 to g6. (228447 actions/s)
+
+64 capacity vec for actions
+Ai : 202434 actions evaluated in 0.6558s with depth 4 at Turn 1 before choosing move c2 to c3. (308659 actions/s)
+Ai : 368274 actions evaluated in 1.2878s with depth 4 at Turn 2 before choosing move c7 to c5. (285970 actions/s)
+Ai : 675430 actions evaluated in 2.5106s with depth 4 at Turn 3 before choosing move d1 to a4. (269027 actions/s)
+Ai : 1314315 actions evaluated in 5.1043s with depth 4 at Turn 4 before choosing move d8 to b6. (257489 actions/s)
+Ai : 2144826 actions evaluated in 8.6924s with depth 4 at Turn 5 before choosing move f2 to f4. (246748 actions/s)
+Ai : 2074373 actions evaluated in 16.5779s with depth 4 at Turn 6 before choosing move h7 to h5. (125128 actions/s)
+Ai : 2458648 actions evaluated in 19.2947s with depth 4 at Turn 7 before choosing move b1 to f5. (127425 actions/s)
+Ai : 2732415 actions evaluated in 12.1141s with depth 4 at Turn 8 before choosing move a7 to a5. (225556 actions/s)
+Ai : 2861121 actions evaluated in 12.4926s with depth 4 at Turn 9 before choosing move h2 to h4. (229024 actions/s)
+Ai : 2890767 actions evaluated in 12.6723s with depth 4 at Turn 10 before choosing move g8 to h7. (228117 actions/s)
+Ai : 3031717 actions evaluated in 13.7893s with depth 4 at Turn 11 before choosing move a4 to e4. (219860 actions/s)
+Ai : 2923558 actions evaluated in 12.7575s with depth 4 at Turn 12 before choosing move h7 to f5. (229163 actions/s)
+Ai : 3148868 actions evaluated in 13.7285s with depth 4 at Turn 13 before choosing move e4 to f5. (229366 actions/s)
+Ai : 2525367 actions evaluated in 10.0337s with depth 4 at Turn 15 before choosing move f5 to g6. (251688 actions/s)
+
+
+// worse
+64 action small vec
+Ai : 202434 actions evaluated in 0.7700s with depth 4 at Turn 1 before choosing move c2 to c3. (262889 actions/s)
+Ai : 368274 actions evaluated in 1.5010s with depth 4 at Turn 2 before choosing move c7 to c5. (245354 actions/s)
+Ai : 675430 actions evaluated in 2.8713s with depth 4 at Turn 3 before choosing move d1 to a4. (235234 actions/s)
+Ai : 1314315 actions evaluated in 5.9472s with depth 4 at Turn 4 before choosing move d8 to b6. (220996 actions/s)
+Ai : 2144826 actions evaluated in 10.5200s with depth 4 at Turn 5 before choosing move f2 to f4. (203881 actions/s)
+Ai : 2074373 actions evaluated in 9.9588s with depth 4 at Turn 6 before choosing move h7 to h5. (208295 actions/s)
+Ai : 2458648 actions evaluated in 12.0511s with depth 4 at Turn 7 before choosing move b1 to f5. (204018 actions/s)
+
+
+
+
+Tableau => Vector
+Ai : 202434 actions evaluated in 0.5879s with depth 4 at Turn 1 before choosing move c2 to c3. (344310 actions/s)
+Ai : 368274 actions evaluated in 1.2976s with depth 4 at Turn 2 before choosing move c7 to c5. (283819 actions/s)
+Ai : 675430 actions evaluated in 2.1763s with depth 4 at Turn 3 before choosing move d1 to a4. (310354 actions/s)
+Ai : 1314315 actions evaluated in 4.5412s with depth 4 at Turn 4 before choosing move d8 to b6. (289417 actions/s)
+Ai : 2144826 actions evaluated in 7.8777s with depth 4 at Turn 5 before choosing move f2 to f4. (272263 actions/s)
+Ai : 2074373 actions evaluated in 15.1910s with depth 4 at Turn 6 before choosing move h7 to h5. (136552 actions/s)
+Ai : 2458648 actions evaluated in 17.9784s with depth 4 at Turn 7 before choosing move b1 to f5. (136755 actions/s)
+Ai : 2732415 actions evaluated in 21.3197s with depth 4 at Turn 8 before choosing move a7 to a5. (128164 actions/s)
+Ai : 2861121 actions evaluated in 11.5527s with depth 4 at Turn 9 before choosing move h2 to h4. (247657 actions/s)
+Ai : 2890767 actions evaluated in 11.3370s with depth 4 at Turn 10 before choosing move g8 to h7. (254984 actions/s)
+Ai : 3031717 actions evaluated in 11.8079s with depth 4 at Turn 11 before choosing move a4 to e4. (256753 actions/s)
+Ai : 2923558 actions evaluated in 11.9281s with depth 4 at Turn 12 before choosing move h7 to f5. (245098 actions/s)
+Ai : 3148868 actions evaluated in 12.3063s with depth 4 at Turn 13 before choosing move e4 to f5. (255875 actions/s)
+Ai : 2547942 actions evaluated in 9.5524s with depth 4 at Turn 14 before choosing move b6 to g6. (266734 actions/s)

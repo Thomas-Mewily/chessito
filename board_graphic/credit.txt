@@ -1,0 +1,87 @@
+
+
+ChessIto
+
+A Game by Thomas / Mewily
+
+Published by Orleans Games :
+https://www.orleansgames.com/
+
+This game is a tiny bit different than regular Chess :
+- No stalemate
+- Promotion is forced to Queen
+- No repetition rule
+
+Special Thanks to : 
+
+- Matéo Allègre
+- Mathis Roubille 
+- Boris Ouya
+- Thomas Dupois
+- Martin Jouen
+- Lucas Pastor
+
+- Friends an Family
+- Other interns, especially Alexandre, Pacifique Aganze and Kongthong
+
+for :
+    - beta testing
+    - the follow-up
+    - discussion about AI behavior, langage design, random coding at any time
+    - helping me with some pawn movements
+    - overreacting x)
+    - playing video game
+    - teaching C and having cool SQL exams
+    ...
+    (*I let you do the mapping*)
+
+
+And you, the player !
+
+
+========= Programming =========
+
+Game Designer, User Interface Designer, UX Designer, main and only programmer :
+
+Thomas / Mewily
+
+
+This game was programmed in Rust <3
+https://www.rust-lang.org/fr
+
+...using the Macroquad crate :
+https://macroquad.rs/
+
+Thank to notfl3
+Thank to @ranmuran on discord on the MacroQuad server : https://discord.com/channels/710177966440579103/710180051349405746/1093173735734915092
+
+========= Game Assets =========
+
+========= Textures =========
+
+Modern chess sprite by Cburnett :
+https://commons.wikimedia.org/wiki/Template:SVG_chess_pieces
+
+Chess pieces illustrations by Chantal Helm
+
+Wood Texture by William Warby :
+https://www.flickr.com/photos/wwarby/5106733699/in/photostream/
+
+Pixel Art Chess Sprite by Deja View at :
+https://deja-view.itch.io/chess-assets
+
+Pixel Art Ui Icon by Thomas / Mewily :
+https://mewily.itch.io/hud-icon-32px
+
+========= Sound =========
+
+Music Stream Loops 2023/11/29 by Tallbeard Studios
+https://tallbeard.itch.io/music-loop-bundle
+
+Sound are from Freesound :
+https://freesound.org/
+
+========= Credit for each asset =========
+
+(Sorry for the poor formatting, I generated them from the download name)
+

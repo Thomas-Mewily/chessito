@@ -1,0 +1,78 @@
+<p>ChessIto is a small game based on Chess made by <a href="https://mewily.itch.io/">Mewily</a>, published by <a href="https://orleans-games.itch.io/">Orleans Games</a>. You can also play <a href="https://games.caramel.be/chess_by_mewily/index.html">the game&nbsp;&nbsp;here</a></p>
+<h3>Rate this game if you like it and want more games like this&nbsp;!</h3>
+<h2>Features :</h2>
+<p>You can play</p>
+<ul><li>human vs human,</li><li>human versus computer</li><li>or even computer versus computer&nbsp;</li></ul>
+<p>There are also additional game modes that you can play by adding relics.</p>
+<h2>Players :</h2>
+<p>Click on an icon to change the player kind :</p>
+<table>
+   <tbody>
+      <tr>
+         <td><img src="https://img.itch.zone/aW1nLzE2NTk1MDY2LnBuZw==/original/dLz6PD.png"></td>
+         <td>Human</td>
+      </tr>
+      <tr>
+         <td><img src="https://img.itch.zone/aW1nLzE2NTk1MTAxLnBuZw==/original/r2VKdJ.png"><br></td>
+         <td>Cpu (Easy)</td>
+      </tr>
+      <tr>
+         <td><img src="https://img.itch.zone/aW1nLzE2NTk1MTA2LnBuZw==/original/CN1URk.png"><br></td>
+         <td>Cpu (Medium)</td>
+      </tr>
+      <tr>
+         <td><img src="https://img.itch.zone/aW1nLzE2NTk1MTA5LnBuZw==/original/O8Q33R.png"><br></td>
+         <td>Cpu (Hard)</td>
+      </tr>
+   </tbody>
+</table>
+<h2>Relics :</h2>
+<p>Relics allow you to change to aspect of the game :</p>
+<table>
+   <tbody>
+      <tr>
+         <td><img src="https://img.itch.zone/aW1nLzE2NTk1MTM1LnBuZw==/original/bkCWfp.png" style="cursor: pointer; max-width: 100%; height: auto !important; vertical-align: middle;"></td>
+         <td>Pin / Anticipation 📌<br><br>Remove move that lead&nbsp;&nbsp;to an&nbsp;imminent defeat. Also dispo yellow and red pin into concerned piece.</td>
+      </tr>
+      <tr>
+         <td><img src="https://img.itch.zone/aW1nLzE2NTk1MTM3LnBuZw==/original/SnfIka.png" style="cursor: pointer; max-width: 100%; height: auto !important; vertical-align: middle;"></td>
+         <td>Play twice&nbsp;x2<br><br>Allow you to do 2 move during your turn. You can also move the same piece twice.</td>
+      </tr>
+      <tr>
+         <td><img src="https://img.itch.zone/aW1nLzE2NTk1MTQzLnBuZw==/original/%2B0jQcP.png" style="cursor: pointer; max-width: 100%; height: auto !important; vertical-align: middle;"></td>
+         <td>Explosion !
+            💥<br><br>When a piece is captured, neighboring pieces are also captured. Regular pawn are immune to explosion.
+         </td>
+      </tr>
+      <tr>
+         <td><img src="https://img.itch.zone/aW1nLzE2NTk1MTUwLnBuZw==/original/6etOhY.png" style="cursor: pointer; max-width: 100%; height: auto !important; vertical-align: middle;"></td>
+         <td><del>Kirby&nbsp;</del>&nbsp;Absorbed&nbsp;mode :&nbsp;♞<br><br>When you capture a pawn, your piece also absorbs the pawn's move set!</td>
+      </tr>
+   </tbody>
+</table>
+<p>
+</p>
+<h6><em>The relic system is&nbsp;not at all inspired&nbsp;by Slay the Spire</em></h6>
+<h2>Ui and Stuff&nbsp;:</h2>
+<p>Relic allow you to change to aspect of the game</p>
+<table>
+   <tbody>
+      <tr>
+         <td><img src="https://img.itch.zone/aW1nLzE2NTk1MzI1LnBuZw==/original/xMbT1q.png" style="cursor: pointer; max-width: 100%; vertical-align: middle; font-size: 12.6px; background-color: rgb(17, 17, 17); height: auto !important;"><br></td>
+         <td>Lightning ⚡<br>Allow you to see all player move set !</td>
+      </tr>
+      <tr>
+         <td><img src="https://img.itch.zone/aW1nLzE2NTk1MzcyLnBuZw==/original/eT3iTc.png"><br></td>
+         <td>Undo Redo&nbsp;⌛<br><br>Go back in time to cancel a bad move !</td>
+      </tr>
+   </tbody>
+</table>
+<p><br></p>
+<p>&nbsp;ChessIto has a few minor differences from traditional chess :</p>
+<ul>
+   <li>&nbsp;No stalemate or draw. If you can't move, you lose.</li>
+   <li>&nbsp;Promotion is forced to Queen</li>
+   <li>&nbsp;No repetition rule</li>
+</ul>
+<p>Credits are in the game<strong><br><br></strong></p>
+<h5>I know there is a bug sometime with the castling move, sometimes it's not visible/suggested on the screen but you can still play it by clicking on the right tile.</h5>

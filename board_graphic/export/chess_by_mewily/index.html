@@ -1,0 +1,45 @@
+<html lang="en">
+
+<head>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9VZ36K9Q3S"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-9VZ36K9Q3S');
+    </script>
+
+    <meta charset="utf-8">
+    <title>Chess Game 👑♞♙</title>
+    <link rel="icon" type="image/x-icon" href="/web/favicon.ico">
+
+    <style>
+        html,
+        body,
+        canvas {
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            position: absolute;
+            background: rgb(210, 186, 186);
+            z-index: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 
+    Chess Game by Mewily
+    -->
+
+    <canvas id="glcanvas" tabindex='1'></canvas>
+    <script src="web/miniquad.js"></script>
+    <script src="web/quad-timestamp.js"></script>
+    <script>load("target/wasm32-unknown-unknown/release/board_graphic.wasm");</script>
+</body>
+</html>

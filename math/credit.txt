@@ -1,0 +1,5 @@
+A Math library programmed by Thomas Mewily
+
+Thank to Simple Easing function  to https://docs.rs/simple-easing/latest/simple_easing/ for the easing function under the MIT License
+
+Thank to https://easings.net/# for some common easing function, and the nice visualisation
