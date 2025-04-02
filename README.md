@@ -26,5 +26,7 @@ The game can be played on [itch io : ChessIto](https://mewily.itch.io/chessito).
 
 When I created this game I had about 4 months of experience in Rust, some parts of the code can be improved (generic vector size, the game loop), but overall I am happy with it.
 
+The goal was to have a modular engine, that support (even tho it is unused) multiplayer (more than 2 players), multi board size, and multiple game rules while having an AI that adapt to the situation.
+
 The credits for the assets can be found inside the game.
 A portion of the credit is avaliable in [credit.txt](board_graphic/credit.txt)
